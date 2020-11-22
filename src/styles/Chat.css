@@ -42,7 +42,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("./background-image.png");
+    background-image: url("../assets/background-image.png");
 }
 
 .chat__message {
