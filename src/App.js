@@ -1,10 +1,10 @@
 import React from 'react'
-import './App.css'
-import Chat from './Chat.js'
-import Login from './Login.js'
-import Sidebar from './Sidebar.js'
 import { Switch, Route, BrowserRouter } from 'react-router-dom'
-import { useStateValue } from './StateProvider.js'
+import './styles/App.css'
+import Chat from './components/Chat.js'
+import Login from './components/Login.js'
+import Sidebar from './components/Sidebar.js'
+import { useStateValue } from './context/StateProvider.js'
 
 function App() {
   const [{ user }, dispatch] = useStateValue()
