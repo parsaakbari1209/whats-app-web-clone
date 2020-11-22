@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { Avatar, IconButton } from '@material-ui/core';
 import { AttachFile, InsertEmoticon, Mic, MoreVert, SearchOutlined } from '@material-ui/icons';
 import firebase from 'firebase';
-import './styles/Chat.css';
+import '../styles/Chat.css';
 import db from '../firebase.js';
 import { useStateValue } from '../context/StateProvider';
 
